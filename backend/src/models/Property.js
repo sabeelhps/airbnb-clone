@@ -5,7 +5,8 @@ const propertySchema = new mongoose.Schema({
         type: String
     },
     hostDesc: {
-        type: String
+        type: String,
+        required;
     },
     availableDates: {
         type: String
