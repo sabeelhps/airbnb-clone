@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const propertySchema = new mongoose.Schema({
     locationName: {
-        type: String
+        type: String,
+        trim: true
     },
     hostDesc: {
         type: String
