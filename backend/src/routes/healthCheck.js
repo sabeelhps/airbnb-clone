@@ -1,14 +1,15 @@
 const express = require('express');
+const logger = require('../core/logger');
 
 const router = express.Router();
 
 router.get('/healthcheck', (req, res) => {
-    console.log('Recieved Health Check!');
+    logger.info('Recieved Health Check!');
     res.send('Health check recieved');
 });
 
 router.get('/echo', (req, res) => {
-    console.log('Recieved echo');
+    logger.info('Recieved echo');
     res.send('Echo revieved');
 });
 
