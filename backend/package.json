@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "airbnb clone",
+  "main": "server.js",
+  "scripts": {
+    "start":"node src/server.js",
+    "dev":"nodemon src/server.js"
+  },
+  "author": "Sabeel Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  }
+}
