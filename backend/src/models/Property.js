@@ -15,7 +15,6 @@ const propertySchema = new mongoose.Schema({
         type: Number,
         min: 0
     }
-
 });
 
 const Property = new mongoose.model('Property', propertySchema);
