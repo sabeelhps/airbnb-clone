@@ -8,11 +8,11 @@ const propertySchema = new mongoose.Schema({
         type: String
     },
     availableDates: {
-        type: String
+        type: string
     },
     price: {
         type: Number,
-        min: 0
+        min: 1
     }
 });
 
