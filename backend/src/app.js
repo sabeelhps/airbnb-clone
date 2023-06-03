@@ -5,6 +5,7 @@ const app = express();
 
 
 app.use(healthcheckRoutes);
+app.use(echo);
 
 
 
