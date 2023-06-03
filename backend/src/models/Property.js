@@ -6,7 +6,11 @@ const propertySchema = new mongoose.Schema({
     },
     hostDesc: {
         type: String,
+<<<<<<< HEAD
+        trim:true
+=======
         trim: true
+>>>>>>> master
     },
     availableDates: {
         type: String,
