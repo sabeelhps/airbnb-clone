@@ -10,7 +10,7 @@
 3. Do your changes in your branch
 4. Once done commit your changes in your branch with appropriate commit message (use vs code or `git add -A` and then `git commit -m "<commit message>"`)
 
-5.Publish your change to github using vs code GUI or use `git push origin <branch name> `
+5. Publish your change to github using vs code GUI or use `git push origin <branch name> `
 
 6. Now go to the `airbnb-clone` repository on github you must get a prompt to create a pull request follow the steps and keep the base branch as `master`
 
