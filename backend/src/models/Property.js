@@ -8,12 +8,14 @@ const propertySchema = new mongoose.Schema({
         type: String
     },
     availableDates: {
-        type: String
+        type: String,
+        trim:true
     },
     price: {
         type: Number,
         min: 0
     }
+
 });
 
 const Property = new mongoose.model('Property', propertySchema);
