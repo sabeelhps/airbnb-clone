@@ -7,10 +7,14 @@ const { connectDB, disconnectDB } = require('./database');
         app.listen(process.env.PORT , () => {
             console.log('server started at port 8000');
         })
+        // git
     }
     catch (err) {
         console.log(err);
         disconnectDB();
+        // disconnect Db
+        //dwfefd
+        //sdsfskjnfdkshd
     }
 })();
 
