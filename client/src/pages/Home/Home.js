@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 import { Heading, SimpleGrid, Box } from '@chakra-ui/react';
 import PropertyCard from '../../components/PropertyCard/PropertyCard';
 
 const Home = () => {
   return (
     <Fragment>
+      <Navbar/>
       <Heading>I'm a Heading</Heading>
       <SimpleGrid columns={{sm: 2, md: 3, lg:4}} spacing='10px'>
         {/* <Box bg='tomato'></Box> */}
